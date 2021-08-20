@@ -50,6 +50,8 @@ nav a:active {
 .fishTank {
 	margin: 1em 0;
 	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
 .fishList{
@@ -84,4 +86,15 @@ footer {
 	background-color: darkcyan;
 	color: whitesmoke;
 	text-align: center;
+}
+
+.tipList, .locationList {
+	width: 75%;
+	margin: 10px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 6px;
+	background-color: white;
 }
